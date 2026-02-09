@@ -1,6 +1,6 @@
 // ====== EDIT THIS (for now) ======
 const PAYPAL_URL = "https://www.paypal.com/ncp/payment/9XP6UXG6DGLT2";
-const YOUR_EMAIL = "kamelin.13@hotmail.com";
+const YOUR_EMAIL = "easytimeappointments@gmail.com";
 const YOUR_WHATSAPP = "573244398401"; // no +, no spaces
 // ================================
 
@@ -174,3 +174,4 @@ document.addEventListener("DOMContentLoaded", () => {
   const browser = (navigator.language || "en").toLowerCase().startsWith("es") ? "es" : "en";
   setLang(saved || browser);
 });
+
